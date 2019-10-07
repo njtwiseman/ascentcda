@@ -53,8 +53,17 @@
 .head-hero {
     background-image: url(img/hero-img.jpg);
     background-repeat: no-repeat;
-    width: 1600px;
-    height: 800px;
+}
+
+.body-container {
+    display: grid;
+    grid-template: "one two three";
+    grid-gap: 10px;
+}
+
+.body-card {
+    background-color: red;
+    height: 300px;
 }
 
 #home {
@@ -77,4 +86,13 @@
     grid-area: five;
 }
 
+#card1 {
+    grid-area: one;
+}
+#card1 {    
+    grid-area: two;
+}
+#card1 {
+    grid-area: three;
+}
 
