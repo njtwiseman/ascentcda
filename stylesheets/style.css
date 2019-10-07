@@ -1,0 +1,47 @@
+/* main css*/
+
+/* li a{
+    display: block;
+    width: 100px;
+} */
+
+/* nav CSS*/
+
+.head-subnav{
+    background-color: aqua;
+    display: grid;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.head-ul-subnav{
+    list-style: none; 
+    margin: 5px;
+    padding: 5px;
+    
+}
+.head-li-subnav {
+    margin: 0;
+    
+}
+.head-subnav a{
+    float: left;
+    text-align: center;
+}
+
+.head-nav{
+    list-style: none;
+    display: grid;
+    margin: 5;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+
+.head-hero{
+    background-image: url(img/hero-img.jpg);
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 800px;
+}
