@@ -23,23 +23,34 @@
 /*.head-li-subnav {*/
     /*margin: 0;*/
     
-/*}*/
-/*.head-subnav a{*/
-    /*float: left;*/
-    /*text-align: center;*/
-/*}*/
+
+/*
+ *.head-subnav {
+ *    text-align: center;
+ *}
+ */
 
 .head-nav{
     display: grid;
     grid-template: "one two three four five";
+    grid-gap: 5px;
     margin: 5;
     padding: 0;
     overflow: hidden;
+    text-align: center;
 }
 
+.nav-button {
+    background-color: #555;
+    color: white;
+}
 
+.nav-button:hover {
+    background-color: #999;
+    cursor: pointer;
+}
 
-.head-hero{
+.head-hero {
     background-image: url(img/hero-img.jpg);
     background-repeat: no-repeat;
     width: 1600px;
@@ -47,23 +58,23 @@
 }
 
 #home {
-    grid-area: "one";
+    grid-area: one;
 }
 
 #services {
-    grid-area: "two";
+    grid-area: two;
 }
 
 #aboutus {
-    grid-area: "three";
+    grid-area: three;
 }
 
 #contact {
-    grid-area: "four";
+    grid-area: four;
 }
 
 #faq {
-    grid-area: "five";
+    grid-area: five;
 }
 
 
