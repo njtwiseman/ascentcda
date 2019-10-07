@@ -7,30 +7,29 @@
 
 /* nav CSS*/
 
-.head-subnav{
-    background-color: aqua;
-    display: grid;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-.head-ul-subnav{
-    list-style: none; 
-    margin: 5px;
-    padding: 5px;
+/*.head-subnav{*/
+    /*background-color: aqua;*/
+    /*display: grid;*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+    /*overflow: hidden;*/
+/*}*/
+/*.head-ul-subnav{*/
+    /*list-style: none; */
+    /*margin: 5px;*/
+    /*padding: 5px;*/
     
-}
-.head-li-subnav {
-    margin: 0;
+/*}*/
+/*.head-li-subnav {*/
+    /*margin: 0;*/
     
-}
-.head-subnav a{
-    float: left;
-    text-align: center;
-}
+/*}*/
+/*.head-subnav a{*/
+    /*float: left;*/
+    /*text-align: center;*/
+/*}*/
 
 .head-nav{
-    list-style: none;
     display: grid;
     grid-template: "one two three four five";
     margin: 5;
